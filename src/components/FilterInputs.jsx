@@ -167,7 +167,7 @@ export default function FilterInputs({onFilterChange}) {
           htmlFor="provider-search"
           className="mb-2 block text-sm font-semibold text-gray-700"
         >
-          البحث عن مقدم الخدمة
+          البحث عن المستشفي
         </label>
 
         <div className="relative">
@@ -191,7 +191,7 @@ export default function FilterInputs({onFilterChange}) {
             type="search"
             value={searchTerm}
             onChange={(event) => setSearchTerm(event.target.value)}
-            placeholder="ابحث بالاسم أو العنوان أو الهاتف أو التخصص..."
+            placeholder="ابحث باسم المستشفي أو العنوان أو المحافظة أو المنطقة أو التخصص..."
             className="w-full rounded-xl border border-gray-200 bg-gray-50 py-3 pr-12 pl-4 text-sm text-gray-800 outline-none transition placeholder:text-gray-400 focus:border-[#394295] focus:ring-2 focus:ring-[#394295]/10"
           />
         </div>
